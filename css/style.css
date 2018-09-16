@@ -1,8 +1,11 @@
 html,
 body,
-header,
+header {
+	height: 113%;
+}
+
 #intro {
-	height: 110%;
+	height: 90%;
 }
 
 #intro {

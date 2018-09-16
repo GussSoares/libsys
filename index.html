@@ -66,7 +66,7 @@ Autores: Felipe Gomes
                 var senha = document.getElementsByName('password')[0].value;
                 seha = senha.toLowerCase();
                 if (usuario == "admin" && senha == "admin") {
-                    window.location = "../bootstrap/pages/user-page.html";
+                    window.location = "../libsys/pages/user-page.html";
                     done = 1;
                 }
                 if (done == 0) { alert("Dados incorretos, tente novamente"); }
@@ -99,7 +99,7 @@ Autores: Felipe Gomes
                                 <label for="form12">Your password</label>
                             </div>
                             <div class="text-center mt-2">
-                                <button type="button" class="btn btn-primary" onclick="Login()" href="../pages/user-page.html">Log in <i class="fa fa-sign-in ml-1"></i></button>
+                                <button type="button" class="btn btn-primary" onclick="Login()" href="../libsys/pages/user-page.html">Log in <i class="fa fa-sign-in ml-1"></i></button>
                             </div>
                         </form>
                     </div>
@@ -181,7 +181,7 @@ Autores: Felipe Gomes
     
 	<!--Main Layout-->
     <main>
-        <div class="row justify-content-center d-flex justify-content-center" style="margin-top:9%;">
+        <div class="row justify-content-center d-flex justify-content-center">
             <h4 class="gray-text my-3 mr-5">Inscreva-se agora mesmo para aproveitar nossas novidades</h4><br />
             <button type="button" class="btn btn-outline-dark mr-3" data-toggle="modal" data-target="#cadastro">Inscreva-se</button>
             <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#login">Logar<i class="fa fa-user ml-2"></i></button>
