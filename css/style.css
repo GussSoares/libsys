@@ -1,0 +1,105 @@
+html,
+body,
+header,
+#intro {
+	height: 100%;
+}
+
+#intro {
+    background: url("https://images.wallpaperscraft.com/image/books_vintage_paper_cards_notebook_retro_74362_1920x1080.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+#title {
+    font-family:'Times New Roman', Times, serif;
+}
+
+#first_main {
+	margin-top: 90px;
+	background: url("https://drive.google.com/uc?id=1u_r3gSG74ifZHUTLrJLh-RyFjK3ii-9P") no-repeat center center fixed;
+	
+	height: 1200px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#bannerzinho {
+    margin: 10%;
+    margin-top: 5%;
+    height: 35%;
+    margin-left:0;
+    margin-right:0;
+    position: relative;
+
+    overflow: hidden;
+}
+
+.banner-categoria {
+	margin: 10%;
+	margin-top:-5%;
+}
+
+.main {
+	height: 150%;
+}
+
+
+.row-cards-margin {
+	margin: 2%;
+	border: 1px solid black;
+}
+
+.anuncio {
+    width: 10rem;
+    height: 20rem;
+    margin-left: 60%;
+    margin-right: 5%;
+}
+
+.sidenav {
+    width: 130px;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #b3e5fc;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+/*----------------------------------------------*/
