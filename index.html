@@ -83,23 +83,23 @@ Autores: Felipe Gomes
                         </button>
                     </div>
                     <div class="modal-body">
-                        <form>
+                        <form method="post" action="ope.php" id="formemail" name="formemail">
                             <!-- login -->
                             <div class="md-form form-sm">
                                 <!--<label for="recipient-user" class="col-form-label"><i class="fa fa-user mr-2"></i>Usuário:</label>
         <input type="text" class="form-control" id="recipient-user" name="user">-->
                                 <i class="fa fa-envelope prefix"></i>
-                                <input type="text" id="form11" class="form-control form-control-sm" name="user">
-                                <label for="form11">Your email</label>
+                                <input type="text" id="user" class="form-control form-control-sm" name="user">
+                                <label for="user">Your email</label>
                             </div>
                             <!-- senha -->
                             <div class="md-form form-sm">
                                 <i class="fa fa-lock prefix"></i>
-                                <input type="password" id="form12" class="form-control form-control-sm" name="password">
-                                <label for="form12">Your password</label>
+                                <input type="password" id="password" class="form-control form-control-sm" name="password">
+                                <label for="password">Your password</label>
                             </div>
                             <div class="text-center mt-2">
-                                <button type="button" class="btn btn-primary" onclick="Login()" href="../libsys/pages/user-page.html">Log in <i class="fa fa-sign-in ml-1"></i></button>
+                                <input type="submit" class="btn btn-primary" value="Log in"/>
                             </div>
                         </form>
                     </div>
