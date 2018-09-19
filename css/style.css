@@ -3,8 +3,8 @@ body,
 header {
 	height: 110%;
 }
-.body-user-page {
-    height: 90%;
+.header-user-page {
+    height: 25%;
 }
 #intro {
 	height: 85%;
@@ -39,7 +39,7 @@ header {
 #bannerzinho {
     margin: 10%;
     margin-top: 7%;
-    height: 35%;
+    height: 100%;
     margin-left:0;
     margin-right:0;
     position: relative;
